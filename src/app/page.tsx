@@ -4,10 +4,8 @@ import { IoMdCheckmark } from "react-icons/io";
 export default function Home() {
   return (
     <>
-      <div
-        className={`min-h-[calc(100vh-4rem)] bg-cover bg-[url("/motor.jpg")] bg-fixed grayscale-[40%]`}
-      >
-        <div className='flex flex-col items-center gap-12 justify-center min-h-[calc(100vh-4rem)] py-24 bg-[rgba(0,0,0,.40)]'>
+      <div className={`min-h-[90vh] bg-cover bg-[url("/motor.jpg")] bg-fixed grayscale-[40%]`}>
+        <div className='flex flex-col items-center gap-12 justify-center min-h-[90vh] py-24 bg-[rgba(0,0,0,.40)]'>
           <h1 className='uppercase text-center text-4xl sm:text-6xl md:text-8xl font-extrabold text-white drop-shadow-2xl tracking-widest'>
             mecánica de <br></br> confianza
           </h1>
