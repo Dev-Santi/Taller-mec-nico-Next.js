@@ -9,7 +9,11 @@ export default function Contactanos() {
       <div className='bg-white py-24'>
         <section className='flex flex-col md:flex-row justify-center gap-16'>
           <Card title='Llámanos' p1='Tel: +52-1-33-12345678' p2='E-Mail: info@misitio.com' />
-          <Card title='Visítanos' p1='Av. Fray Antonio Alcalde 10' p2='13154 Montevideo, Uruguay' />
+          <Card
+            title='Visítanos'
+            p1='Av. Italia y Dr. Manuel Albo'
+            p2='13154 Montevideo, Uruguay'
+          />
           <Card title='Horarios' p1='Lun - Vie: 7:00 - 22:00' p2='Dom: 7:00 - 15:00' />
         </section>
       </div>
