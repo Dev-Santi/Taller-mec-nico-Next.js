@@ -27,20 +27,26 @@ export default function Menu() {
         }
       >
         <ul className='flex flex-col md:flex-row text-2xl md:text-base gap-6 md:gap-12'>
-          <li className={usePathname() == "/" ? "text-orange-200" : "hover:text-orange-100"}>
+          <li
+            onClick={handleClick}
+            className={usePathname() == "/" ? "text-orange-200" : "hover:text-orange-100"}
+          >
             <Link href='/'>Inicio</Link>
           </li>
           <li
+            onClick={handleClick}
             className={usePathname() == "/servicios" ? "text-orange-200" : "hover:text-orange-100"}
           >
             <Link href='/servicios'>Servicios</Link>
           </li>
           <li
+            onClick={handleClick}
             className={usePathname() == "/nosotros" ? "text-orange-200" : "hover:text-orange-100"}
           >
             <Link href='/nosotros'>Nosotros</Link>
           </li>
           <li
+            onClick={handleClick}
             className={
               usePathname() == "/contactanos" ? "text-orange-200" : "hover:text-orange-100"
             }
