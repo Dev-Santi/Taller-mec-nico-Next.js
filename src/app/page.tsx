@@ -1,11 +1,14 @@
-import { AiFillStar, AiFillTool, AiOutlineCheck } from "react-icons/ai";
+import "animate.css";
+import { AiFillStar, AiFillTool } from "react-icons/ai";
 import { IoMdCheckmark } from "react-icons/io";
 
 export default function Home() {
   return (
     <>
-      <div className={`h-[54rem] bg-cover bg-[url("/motor.jpg")] bg-fixed grayscale-[40%]`}>
-        <div className='h-[54rem] flex flex-col items-center gap-12 justify-center py-24 bg-[rgba(0,0,0,.40)]'>
+      <div
+        className={`min-h-[calc(100vh-4rem)] bg-cover bg-[url("/motor.jpg")] bg-scroll md:bg-fixed grayscale-[40%]`}
+      >
+        <div className='min-h-[calc(100vh-4rem)] flex flex-col items-center gap-12 justify-center py-24 bg-[rgba(0,0,0,.40)]'>
           <h1 className='uppercase text-center text-4xl sm:text-6xl md:text-8xl font-extrabold text-white drop-shadow-2xl tracking-widest'>
             mecánica de <br></br> confianza
           </h1>
@@ -35,15 +38,15 @@ export default function Home() {
 function Calidad() {
   return (
     <div className='flex flex-col md:flex-row'>
-      <div className='bg-white flex flex-col items-center justify-center gap-6 font-semibold px-6 py-12'>
+      <div className='bg-white flex flex-col items-center justify-center gap-6 font-semibold px-6 py-12 animate__animated animate__fadeInLeft'>
         <AiFillTool className='text-4xl' />
         <h3 className='text-xl md:text-2xl'>Mecánicos expertos</h3>
       </div>
-      <div className='bg-gray-100 flex flex-col items-center justify-center gap-6 font-semibold px-6 py-12'>
+      <div className='bg-gray-100 flex flex-col items-center justify-center gap-6 font-semibold px-6 py-12 animate__animated animate__fadeInLeft animate__delay-1s'>
         <AiFillStar className='text-4xl' />
         <h3 className='text-xl md:text-2xl'>Servicio de calidad</h3>
       </div>
-      <div className='bg-gray-300 flex flex-col items-center justify-center gap-6 font-semibold px-6 py-12'>
+      <div className='bg-gray-300 flex flex-col items-center justify-center gap-6 font-semibold px-6 py-12 animate__animated animate__fadeInLeft animate__delay-2s'>
         <IoMdCheckmark className='text-4xl' />
         <h3 className='text-xl md:text-2xl'>Precios razonables</h3>
       </div>

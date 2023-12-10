@@ -38,6 +38,9 @@ export default function Contactanos() {
             placeholder='Mensaje'
             required
           />
+          <button className='border-[1px] px-4 py-1 w-fit mx-auto' type='submit'>
+            Enviar
+          </button>
         </form>
       </div>
       <iframe
