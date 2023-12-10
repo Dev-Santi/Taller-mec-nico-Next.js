@@ -75,6 +75,7 @@ export default function Footer() {
             <p className='text-center mb-2 font-extralight'>
               Creado por{" "}
               <Link
+                target='_blank'
                 className='underline'
                 href='https://www.linkedin.com/in/santiago-larrosa-bauz%C3%A1-99b740251/'
               >

@@ -4,6 +4,7 @@ import "./globals.css";
 
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
+import Wpp from "@/components/Wpp/Wpp";
 
 export const metadata: Metadata = {
   title: "Taller DrCar",
@@ -18,6 +19,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <Navigation />
         </header>
         <main>{children}</main>
+        <Wpp />
         <Footer />
       </body>
     </html>
